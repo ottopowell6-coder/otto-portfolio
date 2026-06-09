@@ -38,7 +38,7 @@ export default function Home() {
         {projects.map((project) => (
           <li key={project.id}>
             <HoverRow
-              href={"/work/" + project.id}
+              href={project.id === "soul-culture-vol-3" ? "/work/soul-culture-magazine" : project.id === "design-recap-2025" ? "/work/design-recap-2025" : project.id === "soul-culture-world-tour" ? "/work/soul-culture-world-tour" : project.id === "seaborn-club" ? "/work/seaborn-club" : project.id === "dir-by-hinds" ? "/work/dir-by-hinds" : "/work/" + project.id}
               num={project.num}
               title={project.title}
               tags={project.tags}

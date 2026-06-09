@@ -14,12 +14,12 @@ export const projects: Project[] = [
   {
     id: "soul-culture-vol-3",
     num: "01",
-    title: "Soul Culture Vol. 3 — Dancehall",
+    title: "Soul Culture Magazine Vol. 1 — Dancehall",
     tags: ["Art Direction", "Apparel"],
     year: "2025",
     description:
       "Soul Culture Vol. 3 is the third installment of the Soul Culture streetwear brand — a line rooted in Jamaican dancehall culture. The art direction draws from the raw energy of the dancehall scene, translating that into garment graphics, campaign visuals, and a cohesive drop identity. Every piece in the collection was designed to feel culturally specific without being inaccessible.",
-    behanceUrl: "https://www.behance.net/gallery/250652313/Soul-Culture-Vol-3-Dancehall",
+    behanceUrl: "https://www.behance.net/gallery/250652313/Soul-Culture-Magazine-Vol-1-Dancehall",
     coverImage: "https://mir-s3-cdn-cf.behance.net/projects/404/031192250652313.Y3JvcCwzODM1LDMwMDAsMzMyLDA.png",
     images: [
       "https://mir-s3-cdn-cf.behance.net/projects/404/031192250652313.Y3JvcCwzODM1LDMwMDAsMzMyLDA.png",

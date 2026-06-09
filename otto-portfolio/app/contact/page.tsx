@@ -17,7 +17,7 @@ export default function ContactPage() {
             Available for brand identity, apparel design, art direction, and motion projects. Based in Kingston — working globally.
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", borderTop: "0.5px solid var(--border)", paddingTop: "2rem" }}>
-            <ContactLink href="mailto:hello@ottopowell.com" label="Email" value="hello@ottopowell.com" />
+            <ContactLink href="mailto:ottopowell6@gmail.com" label="Email" value="ottopowell6@gmail.com" />
             <ContactLink href="https://www.instagram.com/playboisasuke" label="Instagram" value="@playboisasuke" external />
             <ContactLink href="https://www.behance.net/ottopowell" label="Behance" value="behance.net/ottopowell" external />
           </div>

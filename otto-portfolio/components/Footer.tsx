@@ -10,7 +10,7 @@ export default function Footer() {
         {[
           { label: "Behance", href: "https://www.behance.net/ottopowell" },
           { label: "Instagram", href: "https://www.instagram.com/playboisasuke" },
-          { label: "Email", href: "mailto:hello@ottopowell.com" },
+          { label: "Email", href: "mailto:ottopowell6@gmail.com" },
         ].map(({ label, href }) => (
           <a
             key={label}
