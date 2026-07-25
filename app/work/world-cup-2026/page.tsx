@@ -418,6 +418,9 @@ export default function WorldCup2026Page() {
       {/* 06 Polaroids */}
       <Divider label="06 — The Polaroids" />
       <section style={{ padding: "2.5rem var(--px) 2rem" }}>
+        <h2 style={{ ...syne, fontSize: "clamp(1.8rem, 4vw, 3rem)", fontWeight: 800, letterSpacing: "-0.01em", marginBottom: "1.25rem" }}>
+          The Polaroids
+        </h2>
         <Body muted>
           Running underneath nearly every hero graphic in this project is a polaroid — the real, unedited moment from the match itself. Over two hundred of them exist across the full campaign. They're the connective tissue of the whole page, proof sitting directly beside interpretation.
         </Body>
@@ -447,16 +450,45 @@ export default function WorldCup2026Page() {
         ))}
       </div>
 
-      {/* Closing note */}
-      <section style={{ padding: "3rem var(--px)", borderBottom: "0.5px solid var(--border)", display: "grid", gridTemplateColumns: "var(--grid-about)", gap: "4rem" }}>
-        <Label>Note</Label>
-        <Body>
-          No brief asked for any of this. It came from being given room to think, and choosing to use it.
-        </Body>
+      {/* Impact */}
+      <Divider label="07 — What This Proved" />
+      <section style={{ padding: "2.5rem var(--px) 3rem" }}>
+        <h2 style={{ ...syne, fontSize: "clamp(1.8rem, 4vw, 3rem)", fontWeight: 800, letterSpacing: "-0.01em", marginBottom: "1.75rem", maxWidth: "820px" }}>
+          The slow ones outperformed the fast ones.
+        </h2>
+        <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "700px", marginBottom: "3rem" }}>
+          <Body>
+            When this started, the working theory was simple: quality over speed, documentation over reaction. I didn't know yet whether an audience built on instant match reactions would actually sit with something that showed up a day later, built with more care. The numbers ended up answering that question clearly.
+          </Body>
+          <Body>
+            Across the campaign, the account pulled 69,338 views and over a thousand direct interactions in a single 30 day stretch, reaching well beyond Jamaica and the UK into the US, Italy, Indonesia, and India, a genuinely international spread for what started as a two person collaboration. Close to 91 percent of that audience sat between 18 and 34, which is exactly the demographic that grew up on football content built for speed. They didn't skip the slower work. They stayed for it.
+          </Body>
+          <Body>
+            What actually rose to the top confirmed the whole thesis. The pieces with the most weight behind them, The Last Dance series, the Cape Verde post, Neymar's last kick at a World Cup, weren't the fastest turnarounds in the project. They were the slowest, the most considered, the ones built on an idea rather than a deadline. Cape Verde alone pulled 8.8K views on a caption that read more like a piece of writing than a stat update. That's the actual lesson here: an audience raised on instant content will still stop for something that was clearly thought through, if the thought is real.
+          </Body>
+          <Body>
+            No brief asked for any of this. It came from being given room to think, and choosing to use it. What I learned is that the room is worth defending, even when the instinct in football content is always to move faster.
+          </Body>
+        </div>
+
+        {/* Metrics strip */}
+        <div style={{ display: "grid", gridTemplateColumns: "var(--grid-4)", gap: "2rem", borderTop: "0.5px solid var(--border)", paddingTop: "2rem" }}>
+          {[
+            { label: "30-Day Views", value: "69,338" },
+            { label: "Interactions", value: "1,046+" },
+            { label: "Countries Reached", value: "UK · US · IT · ID · IN" },
+            { label: "Core Audience Aged 18–34", value: "90.9%" },
+          ].map(({ label, value }) => (
+            <div key={label}>
+              <p style={{ ...mono, fontSize: "10px", color: "var(--muted)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "8px" }}>{label}</p>
+              <p style={{ ...syne, fontSize: "clamp(1.1rem, 2vw, 1.5rem)", fontWeight: 700, color: "var(--blue-accent)", lineHeight: 1.3 }}>{value}</p>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* Prev / Next */}
-      <nav style={{ display: "grid", gridTemplateColumns: "var(--grid-2)", borderBottom: "0.5px solid var(--border)" }}>
+      <nav style={{ display: "grid", gridTemplateColumns: "var(--grid-2)", borderTop: "0.5px solid var(--border)", borderBottom: "0.5px solid var(--border)" }}>
         <HoverNavBlock href="/work/dir-by-hinds" label="← Previous" title="Dir. By Hind$ — Brand Identity & Apparel" align="left" />
         <div />
       </nav>

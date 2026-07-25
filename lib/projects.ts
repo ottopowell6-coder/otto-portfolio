@@ -12,11 +12,25 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "soul-culture-vol-3",
+    id: "world-cup-2026",
     num: "01",
+    title: "90 Mins Ago — World Cup 2026",
+    tags: ["Art Direction", "Graphic Design", "Sports"],
+    year: "2026",
+    description:
+      "Thirty plus custom graphics made in collaboration with 90 Mins Ago across the 2026 World Cup. Built on album cover references, physical object formats, cultural narratives, and player identity — with time to think instead of a deadline to beat, since most pieces went up after the final whistle, not before it.",
+    behanceUrl: "",
+    coverImage: "/projects/world-cup-2026/references/jude-bellingham.jpg",
+    images: [
+      "/projects/world-cup-2026/references/jude-bellingham.jpg",
+    ],
+  },
+  {
+    id: "soul-culture-vol-3",
+    num: "02",
     title: "Soul Culture Magazine Vol. 1 — Dancehall",
     tags: ["Art Direction", "Apparel"],
-    year: "2025",
+    year: "2026",
     description:
       "Soul Culture Vol. 3 is the third installment of the Soul Culture streetwear brand — a line rooted in Jamaican dancehall culture. The art direction draws from the raw energy of the dancehall scene, translating that into garment graphics, campaign visuals, and a cohesive drop identity. Every piece in the collection was designed to feel culturally specific without being inaccessible.",
     behanceUrl: "https://www.behance.net/gallery/250652313/Soul-Culture-Magazine-Vol-1-Dancehall",
@@ -27,7 +41,7 @@ export const projects: Project[] = [
   },
   {
     id: "design-recap-2025",
-    num: "02",
+    num: "03",
     title: "Design Recap 2025",
     tags: ["Motion", "Branding"],
     year: "2025",
@@ -41,7 +55,7 @@ export const projects: Project[] = [
   },
   {
     id: "soul-culture-brand-guidelines",
-    num: "03",
+    num: "04",
     title: "Soul Culture — Brand Guidelines",
     tags: ["Brand Identity"],
     year: "2025",
@@ -55,7 +69,7 @@ export const projects: Project[] = [
   },
   {
     id: "soul-culture-world-tour",
-    num: "04",
+    num: "05",
     title: "Soul Culture — World Tour Drop",
     tags: ["Art Direction", "Apparel"],
     year: "2024",
@@ -69,7 +83,7 @@ export const projects: Project[] = [
   },
   {
     id: "jamaica-world-cup",
-    num: "05",
+    num: "06",
     title: "Jamaica to the World Cup — 3D Art Direction",
     tags: ["3D", "Art Direction"],
     year: "2025",
@@ -83,7 +97,7 @@ export const projects: Project[] = [
   },
   {
     id: "seaborn-club",
-    num: "06",
+    num: "07",
     title: "Seaborn Club — Brand Identity",
     tags: ["Brand Identity", "Spec Work"],
     year: "2025",
@@ -97,7 +111,7 @@ export const projects: Project[] = [
   },
   {
     id: "narthstar",
-    num: "07",
+    num: "08",
     title: "Narthstar — Apparel Design & Art Direction",
     tags: ["Apparel", "Art Direction"],
     year: "2025",
@@ -111,7 +125,7 @@ export const projects: Project[] = [
   },
   {
     id: "aura-by-tash",
-    num: "08",
+    num: "09",
     title: "Aura by Tash — Brand Identity",
     tags: ["Brand Identity"],
     year: "2025",
@@ -125,7 +139,7 @@ export const projects: Project[] = [
   },
   {
     id: "dir-by-hinds",
-    num: "09",
+    num: "10",
     title: "Dir. By Hind$ — Brand Identity & Apparel",
     tags: ["Brand Identity", "Apparel"],
     year: "2024",
@@ -135,20 +149,6 @@ export const projects: Project[] = [
     coverImage: "https://mir-s3-cdn-cf.behance.net/projects/404/6d58e5242888939.Y3JvcCw4MDgsNjMyLDAsMA.png",
     images: [
       "https://mir-s3-cdn-cf.behance.net/projects/404/6d58e5242888939.Y3JvcCw4MDgsNjMyLDAsMA.png",
-    ],
-  },
-  {
-    id: "world-cup-2026",
-    num: "10",
-    title: "90 Mins Ago — World Cup 2026",
-    tags: ["Art Direction", "Graphic Design", "Sports"],
-    year: "2026",
-    description:
-      "Thirty plus custom graphics made in collaboration with 90 Mins Ago across the 2026 World Cup. Built on album cover references, physical object formats, cultural narratives, and player identity — with time to think instead of a deadline to beat, since most pieces went up after the final whistle, not before it.",
-    behanceUrl: "",
-    coverImage: "/projects/world-cup-2026/references/jude-bellingham.jpg",
-    images: [
-      "/projects/world-cup-2026/references/jude-bellingham.jpg",
     ],
   },
 ];
