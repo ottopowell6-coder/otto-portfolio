@@ -199,18 +199,6 @@ const narratives: Piece[] = [
     title: "England vs Norway",
     caption: "Two warrior helmets in near-total darkness, only rim light catching the metal — Anglo-Saxons and Norsemen facing off centuries after the history books say they last did.",
   },
-  {
-    src: "/projects/world-cup-2026/narratives/france-vs-senegal.jpg",
-    tag: "Narrative",
-    title: "France vs Senegal",
-    caption: "A hand caught mid-toss, dice frozen in the air beneath it. Two of the strongest sides from their confederations, rendered as literal chance.",
-  },
-  {
-    src: "/projects/world-cup-2026/narratives/portugal-vs-spain.jpg",
-    tag: "Narrative",
-    title: "Portugal vs Spain",
-    caption: "Ronaldo, back to camera, walking off. \"The dream ends here.\"",
-  },
 ];
 
 const people: Piece[] = [
@@ -268,8 +256,8 @@ const lastDance: Piece[] = [
   { src: "/projects/world-cup-2026/lastdance/neymar.jpg", tag: "Brazil", title: "Neymar", caption: "" },
   { src: "/projects/world-cup-2026/lastdance/james-rodriguez.jpg", tag: "Colombia", title: "James Rodríguez", caption: "" },
   { src: "/projects/world-cup-2026/lastdance/modric.jpg", tag: "Croatia", title: "Modrić", caption: "" },
-  { src: "/projects/world-cup-2026/lastdance/bench.jpg", tag: "Teammates", title: "The Bench", caption: "" },
-  { src: "/projects/world-cup-2026/lastdance/serbia.jpg", tag: "Serbia", title: "Captain", caption: "" },
+  { src: "/projects/world-cup-2026/lastdance/bench.jpg", tag: "Belgium", title: "De Bruyne & Lukaku", caption: "" },
+  { src: "/projects/world-cup-2026/lastdance/serbia.jpg", tag: "Portugal", title: "Ronaldo", caption: "" },
 ];
 
 const polaroidCount = 291;
